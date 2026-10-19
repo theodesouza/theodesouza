@@ -1,88 +1,101 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/theodesouza/theodesouza/main/profile-banner.gif" width="100%" alt="Theo de Souza — desenvolvimento web, mobile e programação assistida por IA. Educação, gamificação e tecnologia." />
+  <img src="https://raw.githubusercontent.com/theodesouza/theodesouza/main/profile-editorial.gif" width="100%" alt="Theo de Souza. Desenvolvimento web e mobile, programação assistida por IA. Educação, gamificação e experiências digitais." />
 </p>
 
 <p align="center">
-  <a href="#projetos-em-destaque">Projetos</a> &nbsp;·&nbsp;
-  <a href="#tecnologias-presentes-nos-meus-projetos">Tecnologias</a> &nbsp;·&nbsp;
-  <a href="https://www.linkedin.com/in/theo-de-souza-132415389">LinkedIn</a>
+  <a href="#sobre-mim"><strong>Sobre mim</strong></a> &nbsp; / &nbsp;
+  <a href="#projetos-em-destaque"><strong>Projetos</strong></a> &nbsp; / &nbsp;
+  <a href="#programação-assistida-por-ia"><strong>IA</strong></a> &nbsp; / &nbsp;
+  <a href="#tecnologias"><strong>Tecnologias</strong></a> &nbsp; / &nbsp;
+  <a href="#vamos-conversar"><strong>Contato</strong></a>
 </p>
-
-## Olá, eu sou o Theo
-
-Desenvolvo projetos que conectam educação, gamificação e experiências digitais. Minha base em programação foi construída durante o curso técnico no **IFSULDEMINAS — Campus Poços de Caldas**, com estudos e projetos em orientação a objetos, desenvolvimento de interfaces e persistência de dados.
 
 ## Sobre mim
 
-- Trabalho em projetos web com **React e JavaScript** e mobile com **React Native, Expo e TypeScript**.
-- Minha trajetória inclui aplicações acadêmicas em **Java, JavaFX e Android nativo**.
-- Uso **programação assistida por IA** no desenvolvimento dos meus projetos, combinando minha base técnica com ferramentas que apoiam a implementação e a evolução de funcionalidades.
-- Tenho interesse em transformar ideias em aplicações úteis, especialmente nas áreas de **educação e gamificação**.
+Sou **Theo de Souza**. Desenvolvo aplicações web e mobile que aproximam **educação, gamificação e tecnologia**, apoiado em uma base de programação construída durante o curso técnico no **IFSULDEMINAS — Campus Poços de Caldas**.
+
+Meus projetos passam por interfaces em React, aplicativos com React Native e Expo e aplicações acadêmicas em Java. A **programação assistida por IA** faz parte dessa trajetória: combino ferramentas de IA com os fundamentos técnicos e com o entendimento das soluções que estou construindo.
+
+> **O que conecta meus projetos:** transformar regras e ideias em experiências que as pessoas possam usar — estudar, acompanhar o próprio progresso, organizar informações e interagir com interfaces.
+
+### Formação e base técnica
+
+**IFSULDEMINAS — Campus Poços de Caldas**  
+Base em programação desenvolvida durante o curso técnico, com estudos e projetos em orientação a objetos, interfaces, desenvolvimento para dispositivos móveis e persistência de dados.
+
+**Na prática:** Java e JavaFX nos projetos acadêmicos; React e Firebase no desenvolvimento web; React Native, TypeScript e SQLite no QuestForge.
 
 ---
 
 ## Projetos em destaque
 
-### [QuestForge](https://github.com/theodesouza/QuestForge)
-
-**MOBILE · EDUCAÇÃO · RPG**
-
-Aplicativo de matemática para o ENEM que combina questões, exploração e progressão de RPG.
-
-- Campanha com missões, chefões e recompensas.
-- Revisão espaçada e seleção de questões com base no progresso do jogador.
-- Persistência local com SQLite no aplicativo nativo.
-- Organização de regras de domínio separadas da interface, com testes automatizados no repositório.
-
-**Tecnologias:** React Native, Expo, TypeScript, SQLite, Zustand e Jest.
-
-### [Call of Study](https://github.com/theodesouza/Projeto-Call-of-Study)
-
-**WEB · EDUCAÇÃO · GAMIFICAÇÃO**
-
-Aplicação web de gamificação de estudos para o ENEM, com registro de atividades e acompanhamento de pontuação.
-
-- Autenticação com Firebase e contexto de usuário.
-- Registro de sessões, histórico, ranking e páginas administrativas.
-- Regras de pontuação para teoria, questões e redação, com multiplicadores por foco, dificuldade e facilidade.
-- Cálculos organizados em funções JavaScript independentes da interface.
-
-**Tecnologias:** React, JavaScript, Vite, Tailwind CSS, Firebase Authentication e Cloud Firestore.
-
-### [E-commerce desktop — POO III](https://github.com/theodesouza/trilhas-tds-POOIII)
-
-**DESKTOP · JAVA · PROJETO ACADÊMICO**
-
-Projeto acadêmico de aplicação desktop com telas de login e gerenciamento de usuários e produtos.
-
-- Interfaces em JavaFX e FXML.
-- Classes de domínio e acesso a dados com DAO e JDBC.
-- Integração com MySQL e organização do projeto com Maven.
-
-**Tecnologias:** Java, JavaFX, FXML, JDBC, MySQL e Maven.
-
-### [GPOX — protótipo de inventário e ofertas](https://github.com/theodesouza/gpox-pwa)
-
-**WEB · GAMES · PROTÓTIPO**
-
-Protótipo web voltado a itens e ofertas de troca do universo de Grand Piece Online.
-
-- Catálogo de itens e gerenciamento de inventário.
-- Interfaces para criação e exploração de ofertas.
-- Autenticação com Firebase e armazenamento local de inventário e ofertas.
-- Fluxos de troca que ainda incluem dados de demonstração.
-
-**Tecnologias:** React, JavaScript, Vite, Tailwind CSS, Firebase e Motion.
+<table>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/theodesouza/QuestForge"><img src="https://raw.githubusercontent.com/theodesouza/theodesouza/main/cover-questforge.svg" width="100%" alt="QuestForge — RPG de matemática para o ENEM. React Native, Expo e TypeScript." /></a>
+<h3><a href="https://github.com/theodesouza/QuestForge">QuestForge</a></h3>
+<p>Aplicativo de matemática para o ENEM que transforma questões em exploração, missões e progressão de RPG.</p>
+<ul>
+<li>Campanha com chefões e recompensas.</li>
+<li>Revisão espaçada e seleção de questões.</li>
+<li>SQLite local e testes de regras de domínio.</li>
+</ul>
+<p><strong>React Native · Expo · TypeScript · SQLite · Zustand · Jest</strong></p>
+<p><a href="https://github.com/theodesouza/QuestForge">Explorar o projeto</a></p>
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/theodesouza/Projeto-Call-of-Study"><img src="https://raw.githubusercontent.com/theodesouza/theodesouza/main/cover-call-of-study.svg" width="100%" alt="Call of Study — gamificação de estudos. React, Firebase e JavaScript." /></a>
+<h3><a href="https://github.com/theodesouza/Projeto-Call-of-Study">Call of Study</a></h3>
+<p>Aplicação web para registrar sessões de estudo, acompanhar pontuação e participar de rankings.</p>
+<ul>
+<li>Autenticação com Firebase.</li>
+<li>Histórico, perfil e páginas administrativas.</li>
+<li>Regras para teoria, questões e redação.</li>
+</ul>
+<p><strong>React · JavaScript · Vite · Tailwind CSS · Firestore</strong></p>
+<p><a href="https://github.com/theodesouza/Projeto-Call-of-Study">Explorar o projeto</a></p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/theodesouza/trilhas-tds-POOIII"><img src="https://raw.githubusercontent.com/theodesouza/theodesouza/main/cover-java-desktop.svg" width="100%" alt="Java desktop — projeto acadêmico com JavaFX, JDBC e MySQL." /></a>
+<h3><a href="https://github.com/theodesouza/trilhas-tds-POOIII">E-commerce desktop</a></h3>
+<p>Projeto acadêmico com telas de login e gerenciamento de usuários e produtos.</p>
+<ul>
+<li>Interfaces JavaFX e FXML.</li>
+<li>Classes de domínio, DAO e JDBC.</li>
+<li>Integração com MySQL e Maven.</li>
+</ul>
+<p><strong>Java · JavaFX · FXML · JDBC · MySQL · Maven</strong></p>
+<p><a href="https://github.com/theodesouza/trilhas-tds-POOIII">Explorar o projeto</a></p>
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/theodesouza/gpox-pwa"><img src="https://raw.githubusercontent.com/theodesouza/theodesouza/main/cover-gpox.svg" width="100%" alt="GPOX — protótipo de inventário e ofertas de itens com React, Firebase e Motion." /></a>
+<h3><a href="https://github.com/theodesouza/gpox-pwa">GPOX</a></h3>
+<p>Protótipo web de inventário e ofertas de itens do universo de Grand Piece Online.</p>
+<ul>
+<li>Catálogo e gerenciamento de inventário.</li>
+<li>Criação e exploração de ofertas.</li>
+<li>Armazenamento local e dados de demonstração.</li>
+</ul>
+<p><strong>React · JavaScript · Vite · Firebase · Motion</strong></p>
+<p><a href="https://github.com/theodesouza/gpox-pwa">Explorar o projeto</a></p>
+</td>
+</tr>
+</table>
 
 <details>
-<summary><strong>Explore também minha base técnica e os projetos acadêmicos</strong></summary>
+<summary><strong>Veja o QuestForge em funcionamento — galeria de telas</strong></summary>
 
-Também mantenho repositórios que registram minha evolução durante os estudos:
+Capturas reais da pré-visualização web, já disponíveis no repositório do projeto.
 
-- [POO II](https://github.com/theodesouza/trilhas-poo2-2026): classes Java, orientação a objetos e acesso a dados.
-- [POO III — JavaFX](https://github.com/theodesouza/trilhas-poo3-2026): estrutura inicial de aplicação desktop com FXML e controladores.
-- [Programação para Dispositivos Móveis II](https://github.com/theodesouza/trilhas-pdm2-2026): atividades de Android nativo em Java.
-- [Jogo da Forca](https://github.com/theodesouza/PDMII-Jogo-da-forca): projeto acadêmico Android com telas de cadastro e jogo e código de persistência em SQLite.
+<p align="center">
+  <img src="https://raw.githubusercontent.com/theodesouza/QuestForge/c5fe786ccb1159e329911db5108063ff5155da8e/docs/screenshots/acampamento.jpg" width="30%" alt="QuestForge: tela do Acampamento" />
+  <img src="https://raw.githubusercontent.com/theodesouza/QuestForge/c5fe786ccb1159e329911db5108063ff5155da8e/docs/screenshots/atlas.jpg" width="30%" alt="QuestForge: tela do Atlas" />
+  <img src="https://raw.githubusercontent.com/theodesouza/QuestForge/c5fe786ccb1159e329911db5108063ff5155da8e/docs/screenshots/chefao-batalha.jpg" width="30%" alt="QuestForge: batalha contra um chefão" />
+</p>
+
+[Código e documentação do QuestForge](https://github.com/theodesouza/QuestForge)
 
 </details>
 
@@ -90,29 +103,42 @@ Também mantenho repositórios que registram minha evolução durante os estudos
 
 ## Programação assistida por IA
 
-A IA faz parte da minha prática de desenvolvimento. O histórico do QuestForge registra colaboração com agentes de IA em funcionalidades, revisões e documentação.
+**Construir com IA faz parte da minha prática de desenvolvimento.** Uso esse apoio na evolução dos meus projetos, combinando os fundamentos adquiridos na formação técnica com ferramentas que auxiliam a implementação de funcionalidades.
 
-Meu foco é combinar esse apoio com os fundamentos adquiridos na formação técnica e com o entendimento das soluções que estou construindo. Os repositórios permitem acompanhar o código, a organização e a evolução desses projetos.
+No **QuestForge**, o histórico registra colaboração com agentes de IA em implementação, revisões e documentação. O repositório também permite explorar regras de domínio separadas da interface, persistência local e testes automatizados.
 
-## Tecnologias presentes nos meus projetos
+Essa é uma competência aplicada em projetos reais. Meu foco é continuar ampliando o entendimento das tecnologias e das decisões por trás do código que estou construindo.
+
+[Conheça o projeto](https://github.com/theodesouza/QuestForge) · [Explore seu histórico](https://github.com/theodesouza/QuestForge/commits)
+
+---
+
+## Tecnologias
+
+Tecnologias presentes nos meus projetos — da base acadêmica às aplicações web e mobile.
 
 <img src="https://raw.githubusercontent.com/theodesouza/theodesouza/main/tech-stack.svg" width="100%" alt="Java, JavaScript, TypeScript, React, React Native, Expo, JavaFX, Firebase, SQLite, MySQL, Git e Jest" />
 
-<details>
-<summary>Onde aplico cada tecnologia</summary>
+- **Web:** React, JavaScript, HTML, CSS, Tailwind CSS e Vite.
+- **Mobile:** React Native, Expo, TypeScript e Android nativo com Java.
+- **Desktop:** Java, JavaFX e FXML.
+- **Dados e autenticação:** SQLite, MySQL, Cloud Firestore e Firebase Authentication.
+- **Ferramentas:** Git, GitHub e Maven; testes com Jest no QuestForge.
 
-- **Linguagens:** Java, JavaScript e TypeScript.
-- **Web:** React, HTML, CSS, Tailwind CSS e Vite.
-- **Mobile:** React Native, Expo e Android nativo com Java.
-- **Desktop:** JavaFX e FXML.
-- **Dados:** SQLite, MySQL e Cloud Firestore.
-- **Ferramentas e práticas:** Git, GitHub, Maven, Firebase Authentication e testes com Jest no QuestForge.
+<details>
+<summary><strong>Minha evolução nos projetos acadêmicos</strong></summary>
+
+- [POO II](https://github.com/theodesouza/trilhas-poo2-2026): classes Java, orientação a objetos e acesso a dados.
+- [POO III — JavaFX](https://github.com/theodesouza/trilhas-poo3-2026): estrutura inicial de aplicação desktop com FXML e controladores.
+- [Dispositivos Móveis II](https://github.com/theodesouza/trilhas-pdm2-2026): atividades de Android nativo em Java.
+- [Jogo da Forca](https://github.com/theodesouza/PDMII-Jogo-da-forca): projeto acadêmico Android com telas de cadastro e jogo e código de persistência em SQLite.
 
 </details>
 
 ---
 
-## Contato
+## Vamos conversar?
 
-- [LinkedIn](https://www.linkedin.com/in/theo-de-souza-132415389)
-- [GitHub](https://github.com/theodesouza)
+Quer conhecer melhor um projeto ou trocar ideias sobre desenvolvimento, educação e gamificação?
+
+**[LinkedIn](https://www.linkedin.com/in/theo-de-souza-132415389)** &nbsp; / &nbsp; **[Meus repositórios](https://github.com/theodesouza?tab=repositories)**
