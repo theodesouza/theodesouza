@@ -7,7 +7,12 @@
   <a href="#projetos-em-destaque"><strong>Projetos</strong></a> &nbsp; / &nbsp;
   <a href="#programação-assistida-por-ia"><strong>IA</strong></a> &nbsp; / &nbsp;
   <a href="#tecnologias"><strong>Tecnologias</strong></a> &nbsp; / &nbsp;
-  <a href="#vamos-conversar"><strong>Contato</strong></a>
+  <a href="#vamos-conversar"><strong>Contato</strong></a> &nbsp; / &nbsp;
+  <a href="https://theodesouza.github.io/theodesouza/"><strong>Portfólio ↗</strong></a>
+</p>
+
+<p align="center">
+  <a href="https://theodesouza.github.io/theodesouza/"><img src="https://raw.githubusercontent.com/theodesouza/theodesouza/main/portfolio-banner.svg" width="100%" alt="Conheça meu portfólio: do sistema em produção na Duá Clínica de Psicologia ao QuestForge. Abrir o site em theodesouza.github.io/theodesouza" /></a>
 </p>
 
 ## Sobre mim
@@ -141,4 +146,4 @@ Tecnologias presentes nos meus projetos — da base acadêmica às aplicações 
 
 Quer conhecer melhor um projeto ou trocar ideias sobre desenvolvimento, educação e gamificação?
 
-**[LinkedIn](https://www.linkedin.com/in/theo-de-souza-132415389)** &nbsp; / &nbsp; **[Meus repositórios](https://github.com/theodesouza?tab=repositories)**
+**[Portfólio](https://theodesouza.github.io/theodesouza/)** &nbsp; / &nbsp; **[LinkedIn](https://www.linkedin.com/in/theo-de-souza-132415389)** &nbsp; / &nbsp; **[Meus repositórios](https://github.com/theodesouza?tab=repositories)**

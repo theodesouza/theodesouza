@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="240" viewBox="0 0 1120 240" role="img" aria-labelledby="title desc">
+  <title id="title">Conheça meu portfólio</title>
+  <desc id="desc">Site com o sistema da Duá em produção, QuestForge, DUA, Call of Study e GPOX. Endereço: theodesouza.github.io/theodesouza</desc>
+  <style>
+    .spin{animation:spin 36s linear infinite}
+    .spin-r{animation:spin 60s linear infinite reverse}
+    .needle{animation:sway 7s ease-in-out infinite}
+    .core{animation:pulse 2.6s ease-in-out infinite}
+    .tw{animation:tw 3.2s ease-in-out infinite}
+    .tw.b{animation-delay:1.1s}.tw.c{animation-delay:2.2s}
+    .go{animation:go 2.4s ease-in-out infinite}
+    @keyframes spin{to{transform:rotate(360deg)}}
+    @keyframes sway{0%,100%{transform:rotate(-14deg)}50%{transform:rotate(14deg)}}
+    @keyframes pulse{0%,100%{opacity:1}50%{opacity:.72}}
+    @keyframes tw{0%,100%{opacity:.15}50%{opacity:.9}}
+    @keyframes go{0%,100%{transform:translateX(0)}50%{transform:translateX(5px)}}
+    @media (prefers-reduced-motion:reduce){.spin,.spin-r,.needle,.core,.tw,.go{animation:none}}
+  </style>
+  <defs>
+    <radialGradient id="glow" cx="0.82" cy="0.5" r="0.45"><stop offset="0" stop-color="#61dbc3" stop-opacity=".14"/><stop offset="1" stop-color="#61dbc3" stop-opacity="0"/></radialGradient>
+    <radialGradient id="core"><stop offset="0" stop-color="#f3dcae"/><stop offset=".6" stop-color="#c8a976"/><stop offset="1" stop-color="#8a6f45"/></radialGradient>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#9fb2c9" opacity=".12"/></pattern>
+    <clipPath id="clip"><rect x="1" y="1" width="1118" height="238" rx="16"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#clip)">
+    <rect width="1120" height="240" fill="#0b1422"/>
+    <rect width="1120" height="240" fill="url(#dots)"/>
+    <rect width="1120" height="240" fill="url(#glow)"/>
+    <circle class="tw" cx="640" cy="44" r="1.6" fill="#d8e7ff"/>
+    <circle class="tw b" cx="720" cy="196" r="1.3" fill="#d8e7ff"/>
+    <circle class="tw c" cx="1060" cy="40" r="1.5" fill="#e7d2a6"/>
+    <circle class="tw b" cx="590" cy="150" r="1.1" fill="#d8e7ff"/>
+    <circle class="tw" cx="1084" cy="190" r="1.2" fill="#d8e7ff"/>
+    <circle class="tw c" cx="770" cy="92" r="1" fill="#d8e7ff"/>
+
+    <!-- astrolábio -->
+    <g transform="translate(905 120) scale(.82)">
+      <line x1="-128" y1="0" x2="128" y2="0" stroke="#1c2b43"/>
+      <line x1="0" y1="-128" x2="0" y2="128" stroke="#1c2b43"/>
+      <g class="spin">
+        <circle r="104" fill="none" stroke="#2a3d5a" stroke-width="1.5"/>
+        <path d="M-52 -90 A104 104 0 1 1 27 100" fill="none" stroke="#61dbc3" stroke-width="4" stroke-linecap="round"/>
+        <circle cx="0" cy="-104" r="5" fill="#c8a976"/>
+      </g>
+      <g class="spin-r">
+        <circle r="80" fill="none" stroke="#2a3d5a" stroke-width="1.5" stroke-dasharray="2 8"/>
+        <path d="M0 -86 l5 6 -5 6 -5 -6z M86 0 l-6 5 -6 -5 6 -5z M0 86 l-5 -6 5 -6 5 6z M-86 0 l6 -5 6 5 -6 5z" fill="#61dbc3" opacity=".8"/>
+      </g>
+      <circle r="54" fill="none" stroke="#1c2b43" stroke-width="1.5"/>
+      <g class="needle">
+        <path d="M0 -66 L13 -13 L66 0 L13 13 L0 66 L-13 13 L-66 0 L-13 -13 Z" fill="#0f1d30" stroke="#61dbc3" stroke-width="3" stroke-linejoin="round"/>
+        <path d="M0 -66 L13 -13 L0 0 Z M66 0 L13 13 L0 0 Z M0 66 L-13 13 L0 0 Z M-66 0 L-13 -13 L0 0 Z" fill="#61dbc3" opacity=".22"/>
+      </g>
+      <circle class="core" r="13" fill="url(#core)"/>
+      <g font-family="Consolas, 'JetBrains Mono', monospace" font-size="12" fill="#c8a976" text-anchor="middle">
+        <text x="0" y="-112">N</text><text x="0" y="122">S</text>
+      </g>
+    </g>
+
+    <!-- texto -->
+    <rect x="44" y="40" width="6" height="40" rx="3" fill="#61dbc3"/>
+    <text x="66" y="54" font-family="Consolas, 'JetBrains Mono', monospace" font-size="13" letter-spacing="2" fill="#61dbc3">PORTFÓLIO · SITE</text>
+    <text x="66" y="84" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="700" fill="#f2f4f7">Conheça meu portfólio</text>
+    <text x="44" y="126" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="17" fill="#9fb2c9">Do sistema em produção na <tspan fill="#e7d2a6">Duá Clínica de Psicologia</tspan> ao QuestForge,</text>
+    <text x="44" y="150" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="17" fill="#9fb2c9">com o status real de cada projeto, do acadêmico ao protótipo.</text>
+
+    <g transform="translate(44 172)">
+      <rect width="176" height="42" rx="21" fill="#61dbc3"/>
+      <text x="24" y="27" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="16" font-weight="600" fill="#060b14">Abrir o site</text>
+      <g class="go"><path d="M126 21 h22 M140 13 l8 8 -8 8" fill="none" stroke="#060b14" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></g>
+    </g>
+    <text x="238" y="199" font-family="Consolas, 'JetBrains Mono', monospace" font-size="14" fill="#687b93">theodesouza.github.io/theodesouza</text>
+  </g>
+  <rect x="1" y="1" width="1118" height="238" rx="16" fill="none" stroke="#334258"/>
+</svg>
