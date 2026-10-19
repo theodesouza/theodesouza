@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="116" height="44" viewBox="0 0 116 44" role="img" aria-labelledby="t d"><title id="t">E-mail</title><desc id="d">E-mail</desc><style>@font-face{font-family:'Inter6';src:url(data:font/woff2;base64,d09GMgABAAAAAAWUABAAAAAACpwAAAU5AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGhwbgiYchTgGYD9TVEFUWgBcEQgKhVCEaQE2AiQDLAsYAAQgBYE6ByAMBxsHCSgehU1ZN/ZBeookbMnUrhtElNOqHo1kGeIsEVsLHGJwFpBeBwDJISERNmyzR29C0SUfT5M4XO/xLxxGIxTCIFRptlQhQfL9DwBb+H/u5+u7W+M7s3kl2BQj27pANgugCT5c0HzHi9dUx3dm9UPsfxupAz7aLx1Jb8Pov4oAHwBQFGEQJosQ4LFMBj2/LiyOIdvNNWVM2K/JL2XCSXZdBRNowP8QYrSDOs6vqcCPP7EBQBEAmgABiuUExSZsShgN0tQwWULNbADUZhhFhRVdCkSVZxPMaQKhO9WooN+6YZhRhAIgFBebAsJFEUKAxzhzqLUy+tdH2o8Fsp1dVoc9/xMqNVhgsEU2SFEh6JAr7vAMn4iSfpmUFUmQKtkmZ+QWeUI+kL9KnzKtxGGQMoCUVYgHYIJVOYcqcMODml8Soxj5LnJzDvBB2gcIwEAaqPnL+Fy5QpWvKCAIIWnfZ+SNKE4ckUmS6wCDziMcxyEclJzKC5m5QeJMIZKWbIGeoI/vBOoblhJWe34Gk8UAkiYkYQgQtq8AJf2yBL4YDJZH3RPy0svoLOPuXvCNY0Ilvf6YNbxn8ihtTvtTiN9QHoEGcFvpBxhucAPUmKaccI54AlEahwbtsN4CjUOLVKTPMBRBA78hIsKOI4JEnLMtwJXLiCJKa/OxhxlmDBGBIIgzuZVm1YdNQBmwzQhYIPO46Pp/SxImzKn6Z4EzikPdcH25eCezDlA0EOEJxSyGx9LNKOVN3f/1AftFHQMEoNfMl4BRfISwGaAfA0yjzqtqW2QRGveL6kSQP9R2Jg6KpY8RBKgs5gdCIJWSBBgUlZUACACF9o0iv6ttAH42xTLKdGtlK1ZeAyZS9oj/v/SW+1x2xumE25SQGkKB8AIYAPqAF0CGQR/QD4CHUDUIqb1GkHqP1j7Loy2fb1Kv1lPqfc3+1tAmQuJJFB/eJRVixHnEtXrwxosnCWX8JLAUBe2MpyJHna9GubfaG38JTRRmX7z2mnS9HuoSOfa8SJfF5tnzygvDEmKve/e+KiPQreK57pVXEvYGMZFjT2jbuEecjWB+g9cdYrc2+1pVyJvsqWSOZ3ndQLvZ1Z7uFU1uLaniT+ueTuUlF0XwOdB16Sbs95tG7sKZdl5/rWOl47zxeieOwHV3sPv/B3MoeQGZ4esOdErsA+fS/56z+1JGU9YoJ8vpDHzww3/pwU7bfyjrUPJcq7I4wXx84sP7j+x+b/elng/pGVBydVj28YrMda1NG0+Oj3ZleZpDt04wF06GJUxyVmZMfPCVH2aNytkdfCBQFXlp3PbE6KNVX/95pvVAQlRwVr/u6LqAU7Ri25M9m0I2uLecTB87z5k3a5YTN5o9azqDQT8vYT7qu9zcr1/cvr5DuXntO5Ztaj52csTRkQNyK7adWpWYfzEx/ar2n/RTRdWZUStS58/KCDzw32vxxQWxizPmLszffD1zrt54/cLr9N75Z0VS7JJlSTErAmxbutS4BawRGlg8f6xGXFq7g0A95NIabH9pM6bWxX4/CgHaqoXGj9/PDF32axs2AB817DwE8Nk/SwYT9p9lXeNyAIMCILiCdlelDBIzyCac7W1wZIN+gxP1pwgrg9S/cHsoTfPodXez/3lFA9BJgNcGHr0oglWmpEsKg9S7Q34YAiL4+Bnz9DKEscggUxiL2VYxHHw2ndJKPBLEyFeoXplsNRLlK1aoSJ1Y+coVW6VSmTyRqtQplitbmVFiFWuRb7Z5+bSN6hTl3ixGpXLZKhgA+O921wtL78r/u94P) format('woff2')}
+.f-b{font-family:'Bric',sans-serif}.f-b6{font-family:'Bric6',sans-serif}.f-i{font-family:'Inter',sans-serif}.f-i6{font-family:'Inter6',sans-serif}.f-m{font-family:'Mono',monospace}.f-m5{font-family:'Mono5',monospace}
+.in{animation:in 1.3s cubic-bezier(.2,.7,.1,1) backwards}
+@keyframes in{from{opacity:0;transform:translateY(18px)}}
+.inx{animation:inx 1.3s cubic-bezier(.2,.7,.1,1) backwards}
+@keyframes inx{from{opacity:0;transform:translateX(-22px)}}
+.fade{animation:fade 1.6s ease backwards}
+@keyframes fade{from{opacity:0}}
+.spin,.spin-r,.ctr,.pulse,.sway,.breathe,.pop{transform-box:fill-box;transform-origin:center}
+.spin{animation:spin var(--d,60s) linear infinite}
+.spin-r{animation:spin var(--d,60s) linear infinite reverse}
+@keyframes spin{to{transform:rotate(360deg)}}
+.tw{animation:tw var(--t,3.6s) ease-in-out infinite}
+@keyframes tw{0%,100%{opacity:.12}50%{opacity:.95}}
+.pulse{animation:pulse 2.4s ease-in-out infinite}
+@keyframes pulse{0%,100%{transform:scale(1);opacity:1}50%{transform:scale(1.55);opacity:.4}}
+.sway{animation:sway 10s cubic-bezier(.45,0,.55,1) infinite}
+@keyframes sway{0%,100%{transform:rotate(-14deg)}50%{transform:rotate(14deg)}}
+.breathe{animation:breathe 3.2s ease-in-out infinite}
+@keyframes breathe{0%,100%{transform:scale(1)}50%{transform:scale(1.12)}}
+.pop{animation:pop .9s cubic-bezier(.34,1.56,.64,1) backwards}
+@keyframes pop{from{transform:scale(0);opacity:0}}
+.drift{animation:drift 18s ease-in-out infinite alternate}
+@keyframes drift{from{transform:translate(-40px,10px) scale(1)}to{transform:translate(50px,-20px) scale(1.15)}}
+.float{animation:float 6s ease-in-out infinite}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
+.shine{animation:shine 7s cubic-bezier(.45,0,.55,1) infinite}
+@keyframes shine{0%{transform:translateX(0)}22%,100%{transform:translateX(var(--sw))}}@media (prefers-reduced-motion:reduce){*{animation:none!important}}</style><defs><linearGradient id="sh" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity="0.16"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient><clipPath id="pc"><rect width="116" height="44" rx="22"/></clipPath></defs><rect x=".5" y=".5" width="115" height="43" rx="21.5" fill="#0e192a" stroke="#2a3d5a"/><g clip-path="url(#pc)"><g transform="skewX(-20)"><rect class="shine" x="-70" y="-10" width="46" height="70" fill="url(#sh)" style="--sw:256px;animation-delay:0.6s"/></g></g><rect x="18" y="15" width="16" height="13" rx="2.5" fill="none" stroke="#61dbc3" stroke-width="1.8"/><path d="M19 17 l7 5.5 7 -5.5" fill="none" stroke="#61dbc3" stroke-width="1.8" stroke-linejoin="round"/><text class="f-i6" x="44" y="27.6" font-size="16.5" fill="#eef2f7">E-mail</text></svg>

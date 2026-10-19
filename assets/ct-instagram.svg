@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="146" height="44" viewBox="0 0 146 44" role="img" aria-labelledby="t d"><title id="t">Instagram</title><desc id="d">Instagram</desc><style>@font-face{font-family:'Inter6';src:url(data:font/woff2;base64,d09GMgABAAAAAAVYABAAAAAACRQAAAT9AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGhYbgXwcKgZgP1NUQVRaAFwRCAqICIcMATYCJAMoCxYABCAFgToHIAwHG2gHUZRQzlIQPw5jZ/SVlWRYoKKi7Wq0Yax15spfPPy31tt91TWQDgDghNFFkgX25BOXHE+7q4mEWfdh+N+9f9pcE92Z1R273UGsgfh7Elr3QX8A+x8gHfb0944bkxbg2iSZ/7HqNcakMWlQURxRoNGalG2gxLIuwQ0G2baEkD3WHIKelxXBfvuRAu0ASQh1IVCaZ5e8bMW6bfocbbx81ogTVY0zRpwVXD1vhAyt/wvRW0lnGpfP66DFbojyEZBBmuQOdckxGefdVVVjJgyQH9T6k7cT9BzOhuXWN5W0vvdpUzTFpCbAYiGrpIWhiGRZbdXtS0YYJYEOW2b3aptsZm5Ou1SoTM1f8MxVSV+8T6/TKgXpmxHsQlu2rt/qk0Gu1j61dKH+c5pCQD5Q+RGDtFtivkA3Z5tx0oWLV27HLG6cOHk1Qvzfs2MsklR1MUAgxWwdEIKYpsAm+6dYDEdCFAfhCrNVkQ7qBZcNstphJ5x3tVUgwTmXb+EOWbdk1lTBQiEGgY7BZUrQDd2JzcR/gAxKIR0LCD2lXObcrlrmars8qsuITmN6dhuXO92Su9PxpvZR7ox22u5J7YttZbjNpXthgQE0CIIbEADCchGlIDCexHWn5lsyzYIBjkMYoVDIEwpvIgjDcegAe0uHAIPY4IY5gdiACnQbyxKDLYkgU5eCCpNzLAvoZGXlAMcRvM03hXWA0GxoOWRshS2GYFK00Ei8MPoUMGksFa1vS3brNoBYO3GGBCmnpM4kEHpHFoXhfIDlzpuCGTY4txpMKCboIt5wctIemhPQjUoGNgE0yzYDuUiXlaJvY4MXzZP3rXs/CM6s7QJSv+3S7wNwERRybf4Q3hO2Awg/eYo+9f8kyDWCENKnTuHtyWdw7b94Tq2hDZQBpGA7/iwKrZ1sB0Nj1JgzoIICWqp3gPiP2PUvBKfVijZHCabL+CHNDeGzpvGSFNoo32km7m4dRVhAf9L8JPvBwSCrnz6BV8SumXTz4icrXv9cQEeIONpB5VR8DQ4L/Loun46QDZPumM00doEuDg4wyRAUf+y5ENhWox3+MEbPz7/AKr5xvKLhrpp5eFKLp4C+1dD08cCh5r+3Opnsdv/IDHe5w/8F071nXpNTs8m1cb7zxUU+K7UpREpdhvdKXr7PfF0SGCC/SMsoq2fntPb4RDROzepN6qtll3XNBfByV3mZm1o/iV0pqOTH+aW7OpD4iX9ccmFeoifp7J4buR0Mj4yKkd9ElVXtxvaP9VdvFZBHey+KrVZUt+cFF3v7VoEB8s9RGV1quoBSSzR6/yVU0jisyheWhE4ABzXmfHjbsFLOJ1u1hJo4PlUR5ekQ7helcMJi2XBxsbmgcvZKYk/7gdAKWpV4bmuVHZeeWBbm6RiOJykeN18xnJ+uK2pcu5cGLL6Q15qvrUiL2fp6eCttUra4tC0VtVzfujqFCVrpAtmSz0ceTOXLz/u/XtTBH9d7x+Cfpjl9dGtZUX1TW4RCAsEnqqI2TTfDCb3q7ImUlUWxKs30KD+xrhJ216a5l/92rxjvXm7YlX7SLWUESquUINismj0KkdtIOhDqRGing2yaTvrIZulljGy2uiWyRdpZc02LlXbYouGEa8467LKdGk454aSrtmo455QlLjjrmI0uuuqUow47a5CtTrmtYbJpSfFqVxHSg21xwTmHnVcALfu9Z7UforV7+SEA) format('woff2')}
+.f-b{font-family:'Bric',sans-serif}.f-b6{font-family:'Bric6',sans-serif}.f-i{font-family:'Inter',sans-serif}.f-i6{font-family:'Inter6',sans-serif}.f-m{font-family:'Mono',monospace}.f-m5{font-family:'Mono5',monospace}
+.in{animation:in 1.3s cubic-bezier(.2,.7,.1,1) backwards}
+@keyframes in{from{opacity:0;transform:translateY(18px)}}
+.inx{animation:inx 1.3s cubic-bezier(.2,.7,.1,1) backwards}
+@keyframes inx{from{opacity:0;transform:translateX(-22px)}}
+.fade{animation:fade 1.6s ease backwards}
+@keyframes fade{from{opacity:0}}
+.spin,.spin-r,.ctr,.pulse,.sway,.breathe,.pop{transform-box:fill-box;transform-origin:center}
+.spin{animation:spin var(--d,60s) linear infinite}
+.spin-r{animation:spin var(--d,60s) linear infinite reverse}
+@keyframes spin{to{transform:rotate(360deg)}}
+.tw{animation:tw var(--t,3.6s) ease-in-out infinite}
+@keyframes tw{0%,100%{opacity:.12}50%{opacity:.95}}
+.pulse{animation:pulse 2.4s ease-in-out infinite}
+@keyframes pulse{0%,100%{transform:scale(1);opacity:1}50%{transform:scale(1.55);opacity:.4}}
+.sway{animation:sway 10s cubic-bezier(.45,0,.55,1) infinite}
+@keyframes sway{0%,100%{transform:rotate(-14deg)}50%{transform:rotate(14deg)}}
+.breathe{animation:breathe 3.2s ease-in-out infinite}
+@keyframes breathe{0%,100%{transform:scale(1)}50%{transform:scale(1.12)}}
+.pop{animation:pop .9s cubic-bezier(.34,1.56,.64,1) backwards}
+@keyframes pop{from{transform:scale(0);opacity:0}}
+.drift{animation:drift 18s ease-in-out infinite alternate}
+@keyframes drift{from{transform:translate(-40px,10px) scale(1)}to{transform:translate(50px,-20px) scale(1.15)}}
+.float{animation:float 6s ease-in-out infinite}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
+.shine{animation:shine 7s cubic-bezier(.45,0,.55,1) infinite}
+@keyframes shine{0%{transform:translateX(0)}22%,100%{transform:translateX(var(--sw))}}@media (prefers-reduced-motion:reduce){*{animation:none!important}}</style><defs><linearGradient id="sh" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity="0.16"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient><clipPath id="pc"><rect width="146" height="44" rx="22"/></clipPath></defs><rect x=".5" y=".5" width="145" height="43" rx="21.5" fill="#0e192a" stroke="#2a3d5a"/><g clip-path="url(#pc)"><g transform="skewX(-20)"><rect class="shine" x="-70" y="-10" width="46" height="70" fill="url(#sh)" style="--sw:286px;animation-delay:1.4s"/></g></g><rect x="18" y="14" width="16" height="16" rx="4.5" fill="none" stroke="#61dbc3" stroke-width="1.8"/><circle cx="26" cy="22" r="3.6" fill="none" stroke="#61dbc3" stroke-width="1.8"/><circle cx="30.4" cy="17.6" r="1.1" fill="#61dbc3"/><text class="f-i6" x="44" y="27.6" font-size="16.5" fill="#eef2f7">Instagram</text></svg>

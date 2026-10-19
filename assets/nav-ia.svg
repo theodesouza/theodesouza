@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="82" height="44" viewBox="0 0 82 44" role="img" aria-labelledby="t d"><title id="t">IA</title><desc id="d">IA</desc><style>@font-face{font-family:'Inter6';src:url(data:font/woff2;base64,d09GMgABAAAAAAL4ABAAAAAABbAAAAKcAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGhYbgRocKgZgP1NUQVRaAEQRCAqCQIIgATYCJAMQCwoABCAFgToHIAwHG2oECI7DOIZ84immoSKobGVZPbMgYh4hs6VnCJ9MoH0yAdjw3jtJ/V9Yi3jqJuCfP+Cu7bzoqaKn4qjLhljK+T7fFJbYkwRiabsaiuhKzWEv3dNHCjQEhJCEEKhvojXyGbMWrNB++9ljB/TefWznfr0PbD1xSG853CfEaJL27zx2SGO7siUCJBBySVWoSjrK0dNASQaAzkJKINIkBUS99ZVE41Cg7RIA8vxuWqNEaUT+KZ5hTfrUK+nFv1PKkOQIAFi2fOFyNV3NrdTuNaf6a3oMAfmm0lfoqqEQqjK0lGGgdPjI8XMxltO795yIEHtPbD0QhaSsuc4CKcZpjBDEyLQGmSTFVBAg8UAEeuaGoqoqoaup5t6nPuT+32reFABC3KcJQg6qaIRNuAHIQX1JkNfP84bl+nm5YeM8P9v4fJMzGkX91dFQg3WpUbaifqBeX4NooH6skmKrXO82kjXvFAqhrdjgfKOzDc9999OqBt/8sOLM+mjm/NmG56dcfel11T9e7zJFUXz/3aWpRfHD95cVprxfu1K7/74Cu4qiuFKrTbmc/VG8dL8ktZd2lS1diy3F5Sl/rORL71/u8qEtD9HbjmwxvOvNr5Z3m/lVr6aPlnufXj54eG3ssA+XDO1xvGlWrn/k+2bfa9/qK6WvGih9Bf4QyE3b+9YnL25uMvH/alYFf526/RD8Vze+neH3tpRerhTIJBD8SKH0leGGSW1VU56XipgDddIYT6Qcgdwc9UFAV8U6mcjrSRrjWSI01JiM1FR7MlZb/ck4VdNIoaF5d5qqvlWW2Wm3kw7Y6pjVdtprtz1OWG6ng/aa5rADdljsiBP22m6rA7pabq9zdhpmpADnOuGJii1z2EFbHZIB9+4VufxG3O/1/A4AAA==) format('woff2')}
+.f-b{font-family:'Bric',sans-serif}.f-b6{font-family:'Bric6',sans-serif}.f-i{font-family:'Inter',sans-serif}.f-i6{font-family:'Inter6',sans-serif}.f-m{font-family:'Mono',monospace}.f-m5{font-family:'Mono5',monospace}
+.in{animation:in 1.3s cubic-bezier(.2,.7,.1,1) backwards}
+@keyframes in{from{opacity:0;transform:translateY(18px)}}
+.inx{animation:inx 1.3s cubic-bezier(.2,.7,.1,1) backwards}
+@keyframes inx{from{opacity:0;transform:translateX(-22px)}}
+.fade{animation:fade 1.6s ease backwards}
+@keyframes fade{from{opacity:0}}
+.spin,.spin-r,.ctr,.pulse,.sway,.breathe,.pop{transform-box:fill-box;transform-origin:center}
+.spin{animation:spin var(--d,60s) linear infinite}
+.spin-r{animation:spin var(--d,60s) linear infinite reverse}
+@keyframes spin{to{transform:rotate(360deg)}}
+.tw{animation:tw var(--t,3.6s) ease-in-out infinite}
+@keyframes tw{0%,100%{opacity:.12}50%{opacity:.95}}
+.pulse{animation:pulse 2.4s ease-in-out infinite}
+@keyframes pulse{0%,100%{transform:scale(1);opacity:1}50%{transform:scale(1.55);opacity:.4}}
+.sway{animation:sway 10s cubic-bezier(.45,0,.55,1) infinite}
+@keyframes sway{0%,100%{transform:rotate(-14deg)}50%{transform:rotate(14deg)}}
+.breathe{animation:breathe 3.2s ease-in-out infinite}
+@keyframes breathe{0%,100%{transform:scale(1)}50%{transform:scale(1.12)}}
+.pop{animation:pop .9s cubic-bezier(.34,1.56,.64,1) backwards}
+@keyframes pop{from{transform:scale(0);opacity:0}}
+.drift{animation:drift 18s ease-in-out infinite alternate}
+@keyframes drift{from{transform:translate(-40px,10px) scale(1)}to{transform:translate(50px,-20px) scale(1.15)}}
+.float{animation:float 6s ease-in-out infinite}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
+.shine{animation:shine 7s cubic-bezier(.45,0,.55,1) infinite}
+@keyframes shine{0%{transform:translateX(0)}22%,100%{transform:translateX(var(--sw))}}@media (prefers-reduced-motion:reduce){*{animation:none!important}}</style><defs><linearGradient id="sh" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity="0.16"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient><clipPath id="pc"><rect width="82" height="44" rx="22"/></clipPath></defs><rect x=".5" y=".5" width="81" height="43" rx="21.5" fill="#0e192a" stroke="#2a3d5a"/><g clip-path="url(#pc)"><g transform="skewX(-20)"><rect class="shine" x="-70" y="-10" width="46" height="70" fill="url(#sh)" style="--sw:222px;animation-delay:1.5s"/></g></g><circle cx="25" cy="22" r="4" fill="#61dbc3"/><text class="f-i6" x="44" y="27.6" font-size="16.5" fill="#eef2f7">IA</text></svg>

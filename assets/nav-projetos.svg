@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="132" height="44" viewBox="0 0 132 44" role="img" aria-labelledby="t d"><title id="t">Projetos</title><desc id="d">Projetos</desc><style>@font-face{font-family:'Inter6';src:url(data:font/woff2;base64,d09GMgABAAAAAAT4ABAAAAAACKAAAASbAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGhwbggQcKgZgP1NUQVRaAFwRCAqHBIYMATYCJAMsCxgABCAFgToHIAwHG/oGKAbiAc/6eWnaTbHgCcqRC6or9Gx9Afn/76eu+Qfgqt3euat6bxGh0TQbTyk1rWw6sNE/wzr+wQaAUzM2zHILUkIXXB4ffioCOAAABQVBQTCjIQhgYyBhqCNGTQiifmJZQRatUwuSM2mdFe/MoTUqgGEgiJgEJTO5IAcPaPsBAmIFfJ9ymC+goZCECjiZjwU3+NCmxgv8gFY0ga+kGt+C8YPxM14Axk9wcTSoIKwFDTMAWFkTauawA5ZJwHwj5K1pi+LzuHhZ3amT2Kj+p4RhBnMP9RGwPmgpjzikbOGI2QQoqIDAO5oWODGQqzTF6Xb1fx/Q3lNWAgKgxpifA01xIAgaJsAPE9ARJTevsFz6QklqmlME+eOH16KjYMGHxgigSD88AEFAeiphgAkFRYbCw3Hu3idtWmVMxgNtl1ybMoVkMsjFaRggBQXPML4yjhmbjPXGamMlAlOCbObzjNvaAQgA/ED8QZYAjrkusCFsRCvIlRVAVJuqOiw21eKo29bdy8uvo+rlKPOo8CzFXWyh4sAeobibgmwSxm3YxY5NQpwwIQoqCSYLEkfuwPH2Cs8Fr15R+/KlzSHuC954Q1yvX9tsWvb812+L65037E77K/AS76Dinm8noVZ77Eh2CX7JdIW7tgNik/asrOt+y6XffBkSFECnZbVjf6OqeqsVqzOPumH6dUjobmENHBIyzIjrjb2ng4OOm5ja6A8+0kUVeEiku1b7zL7gTpvgk20EIhVzHheg7iRDXFuPon14tMlcdF1/43X1UF1/840adIZcuVp71biCTnDrRCJ5dUhNq/ihvtXoRK5uXTES11SP02uGfLgEb71SEFNL45biT+TFsRrz804HvqopeX/xktL3vqk5mP/upOTakQMrJk8eWOYanvLXz5QE7Pt50XQ5cqjW9O3yrSlnhy6eN+XlimnLj3mX9Yjpt7hgckhIyZTBswPLM0Yvc40N6RfVdLju8X3X+uGu2dfHoa2MMW8pi9hwaHx5r1etJ+hjRpETsOOHpdOVg4enqz8s2bGzoIAPH5QoGd7xPLI0vv+ulNQ2aicjI4sFtTMtBYV/wvyYfy84GsWtSosLCGz+w6+j3VqMKRikZ41eTtcA162x1Yt8kn7uFDDNOSU2Lm9Cv65jB0/wutx2U7MNGyrS8tfcD5xdc3p0Xq1/yBed2idOiQzMGdOv29ghQd6X2mxutm5VcUbZ1jcjaPtrzMOKh5utaqdBfQf47PVte/dguK3dtgNbVuKd9O/gsMD+A8OmDR7SxgMGiFtjaY0JsGD7DQ0wXv8fIzss9f7YigAqwx4ePfRerOfA3zSTBsDHxXOWAnz+b/96m9TUp276J9sNIPCTIGbdEUybp8FFdrMuY8ztWK1eIFyp60LB6geCH6ZOzFeTCVNe4KeoANQggJ0x2KiHgkC7tHYjAhOiWrMeIIxEcOCh7IkX9ZV9qUt7ZT80hil1HIw7fig2QphGMqkUkUU8BYSSTDqppOEkUOBsVGoYuY52EpPJw5lKJB64KZhMp5xkutEzZ8fiBLzZNHLJJp4cTADw/ykOwfazYsw6qi4CAAAA) format('woff2')}
+.f-b{font-family:'Bric',sans-serif}.f-b6{font-family:'Bric6',sans-serif}.f-i{font-family:'Inter',sans-serif}.f-i6{font-family:'Inter6',sans-serif}.f-m{font-family:'Mono',monospace}.f-m5{font-family:'Mono5',monospace}
+.in{animation:in 1.3s cubic-bezier(.2,.7,.1,1) backwards}
+@keyframes in{from{opacity:0;transform:translateY(18px)}}
+.inx{animation:inx 1.3s cubic-bezier(.2,.7,.1,1) backwards}
+@keyframes inx{from{opacity:0;transform:translateX(-22px)}}
+.fade{animation:fade 1.6s ease backwards}
+@keyframes fade{from{opacity:0}}
+.spin,.spin-r,.ctr,.pulse,.sway,.breathe,.pop{transform-box:fill-box;transform-origin:center}
+.spin{animation:spin var(--d,60s) linear infinite}
+.spin-r{animation:spin var(--d,60s) linear infinite reverse}
+@keyframes spin{to{transform:rotate(360deg)}}
+.tw{animation:tw var(--t,3.6s) ease-in-out infinite}
+@keyframes tw{0%,100%{opacity:.12}50%{opacity:.95}}
+.pulse{animation:pulse 2.4s ease-in-out infinite}
+@keyframes pulse{0%,100%{transform:scale(1);opacity:1}50%{transform:scale(1.55);opacity:.4}}
+.sway{animation:sway 10s cubic-bezier(.45,0,.55,1) infinite}
+@keyframes sway{0%,100%{transform:rotate(-14deg)}50%{transform:rotate(14deg)}}
+.breathe{animation:breathe 3.2s ease-in-out infinite}
+@keyframes breathe{0%,100%{transform:scale(1)}50%{transform:scale(1.12)}}
+.pop{animation:pop .9s cubic-bezier(.34,1.56,.64,1) backwards}
+@keyframes pop{from{transform:scale(0);opacity:0}}
+.drift{animation:drift 18s ease-in-out infinite alternate}
+@keyframes drift{from{transform:translate(-40px,10px) scale(1)}to{transform:translate(50px,-20px) scale(1.15)}}
+.float{animation:float 6s ease-in-out infinite}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
+.shine{animation:shine 7s cubic-bezier(.45,0,.55,1) infinite}
+@keyframes shine{0%{transform:translateX(0)}22%,100%{transform:translateX(var(--sw))}}@media (prefers-reduced-motion:reduce){*{animation:none!important}}</style><defs><linearGradient id="sh" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity="0.16"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient><clipPath id="pc"><rect width="132" height="44" rx="22"/></clipPath></defs><rect x=".5" y=".5" width="131" height="43" rx="21.5" fill="#0e192a" stroke="#2a3d5a"/><g clip-path="url(#pc)"><g transform="skewX(-20)"><rect class="shine" x="-70" y="-10" width="46" height="70" fill="url(#sh)" style="--sw:272px;animation-delay:1.2s"/></g></g><circle cx="25" cy="22" r="4" fill="#61dbc3"/><text class="f-i6" x="44" y="27.6" font-size="16.5" fill="#eef2f7">Projetos</text></svg>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="129" height="44" viewBox="0 0 129 44" role="img" aria-labelledby="t d"><title id="t">Contato</title><desc id="d">Contato</desc><style>@font-face{font-family:'Inter6';src:url(data:font/woff2;base64,d09GMgABAAAAAARsABAAAAAAB7AAAAQRAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGhYbgU4cKgZgP1NUQVRaAFQRCAqFbIUcATYCJAMcCxAABCAFgToHIAwHGzYGIAaeJzy/P3cyVYoV0az14DxyLXTxCebgcv6rcExfgyyEa86BcUjZBl2YF0iWBxZQmlu6DbHOiVAY6LT6D/+SCBAAABSC4EIQwKQ3MeiBg0dOpGbajNJ8mmaVZuTRNN+eXEhTNIDjIEg4Diovo7SQkIlXBgRQFRS0Br1IP6qw0MBw4tC4geKV2eB8C5jg/PzAVlxUxcGgwBCtfSFuU5qjzKGXIFVfwHGt/1MxuMDVST8H7HTF1HOcUftexGUACg0I+OHjJ4yaQIT6TPZE/q8I3vfUZkAAdJLrZaA+AQTBiwFUxgBao4qKy2ZKd5iWlT1ZBMmZbOeLhcJNReoigJIehABBQDqrGMBAoaQffGTd5mZxT9FYQAAvCk19BmBTxGTHAQIpfM753LnrHHC2OBsQEBSk/I7LAYIHgBBQEfgFJAUA0ACYCApBoUCbWgfcpnYHmjavWK18eV1+RmhWuekExYyWAP44FTQmmuKOmvjFjylRBS6iCFWVE2OoaG1Sa+tmrPz4bVnwzif+Va+BOinweoO58tVXmU8Aa3gD1Ojgqw57ZcYlCxjo6RdEFtQFX6wdNdVrG9CmmKdvY9QqjsjmJz2NH+3TmacDPn+sWVpGB1wLjggVrHz9ZFUi8xbz31y7tOD4wVmEJD7onf+SFp5oNunyq+NKr0t4wf7zeD88X285lmW98frcfpb15hvzsAjfi8yPOPewcA0WIAxEwvNa4kNrv3O5I/vZoZT6Voo1L/xhFNx/b94Mrk9Z79ygOIUO5Ss/6nTlwqQff7oY1fnKg5mvDjy6OO9ehRnBQP++GYmDpzQeMPP2zNyvT5zK++r2tOkD9H8lDQ5n+vuFQrnpNw+teXMM96vmnhhpbylMHjxr+rBtTcZ5UswZ5RY1dXVrNTKqudUvqdm9V39sXz91xfy74eIx+xsviR63qfibv3aaa6PGzm9fOTJuctjK7rv4qfvDg0N9C7clNupsdW7f3prYgDVr1+mk341KVdquv7J+RdkpO+nWsif0vuKyeZmD8nr1KaWw6qEf1i9Up88u1D+sO3RYwXWcPd2AHjz0cvx0u+eRzKwObiA+fmpIOZydCfLINP816dlZz+716TZ9uveqeLxS8ydPx5otDpzatxmAfxFA03/6a90bJJfr/ZvX8ALw8dRl6wE+/7dnDSr/n+Ja6rEAAwWAwK/qcH1WQKbJKi8oelyWDJUPnaW3M1J/xkr9AbHqFSorDQjgYSgmAAJAjhCHgWgfihCEciIECPE7U56a/O5UpyW/B1768y0CDL9qP0yiGE8GWUwhH5tSoskghyyymcwEMiggh/4UIeLpjKGYycE0bMpY38ZzmEkGHeicpA9jssrebDxFFGBTiAEA/1/hDGi9Ls6S83oNAA==) format('woff2')}
+.f-b{font-family:'Bric',sans-serif}.f-b6{font-family:'Bric6',sans-serif}.f-i{font-family:'Inter',sans-serif}.f-i6{font-family:'Inter6',sans-serif}.f-m{font-family:'Mono',monospace}.f-m5{font-family:'Mono5',monospace}
+.in{animation:in 1.3s cubic-bezier(.2,.7,.1,1) backwards}
+@keyframes in{from{opacity:0;transform:translateY(18px)}}
+.inx{animation:inx 1.3s cubic-bezier(.2,.7,.1,1) backwards}
+@keyframes inx{from{opacity:0;transform:translateX(-22px)}}
+.fade{animation:fade 1.6s ease backwards}
+@keyframes fade{from{opacity:0}}
+.spin,.spin-r,.ctr,.pulse,.sway,.breathe,.pop{transform-box:fill-box;transform-origin:center}
+.spin{animation:spin var(--d,60s) linear infinite}
+.spin-r{animation:spin var(--d,60s) linear infinite reverse}
+@keyframes spin{to{transform:rotate(360deg)}}
+.tw{animation:tw var(--t,3.6s) ease-in-out infinite}
+@keyframes tw{0%,100%{opacity:.12}50%{opacity:.95}}
+.pulse{animation:pulse 2.4s ease-in-out infinite}
+@keyframes pulse{0%,100%{transform:scale(1);opacity:1}50%{transform:scale(1.55);opacity:.4}}
+.sway{animation:sway 10s cubic-bezier(.45,0,.55,1) infinite}
+@keyframes sway{0%,100%{transform:rotate(-14deg)}50%{transform:rotate(14deg)}}
+.breathe{animation:breathe 3.2s ease-in-out infinite}
+@keyframes breathe{0%,100%{transform:scale(1)}50%{transform:scale(1.12)}}
+.pop{animation:pop .9s cubic-bezier(.34,1.56,.64,1) backwards}
+@keyframes pop{from{transform:scale(0);opacity:0}}
+.drift{animation:drift 18s ease-in-out infinite alternate}
+@keyframes drift{from{transform:translate(-40px,10px) scale(1)}to{transform:translate(50px,-20px) scale(1.15)}}
+.float{animation:float 6s ease-in-out infinite}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
+.shine{animation:shine 7s cubic-bezier(.45,0,.55,1) infinite}
+@keyframes shine{0%{transform:translateX(0)}22%,100%{transform:translateX(var(--sw))}}@media (prefers-reduced-motion:reduce){*{animation:none!important}}</style><defs><linearGradient id="sh" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity="0.16"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient><clipPath id="pc"><rect width="129" height="44" rx="22"/></clipPath></defs><rect x=".5" y=".5" width="128" height="43" rx="21.5" fill="#0e192a" stroke="#2a3d5a"/><g clip-path="url(#pc)"><g transform="skewX(-20)"><rect class="shine" x="-70" y="-10" width="46" height="70" fill="url(#sh)" style="--sw:269px;animation-delay:2.6s"/></g></g><circle cx="25" cy="22" r="4" fill="#61dbc3"/><text class="f-i6" x="44" y="27.6" font-size="16.5" fill="#eef2f7">Contato</text></svg>

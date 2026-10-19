@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="134" height="44" viewBox="0 0 134 44" role="img" aria-labelledby="t d"><title id="t">Portfólio</title><desc id="d">Portfólio</desc><style>@font-face{font-family:'Inter6';src:url(data:font/woff2;base64,d09GMgABAAAAAAScABAAAAAACGQAAARAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGhwbghYcKgZgP1NUQVRaAHQRCAqGEIUGATYCJAM0CxwABCAFgToHIAwHG6YGIB6JsS2a7Q+nRaYRPM+/5/drn5wUSXrZEZyB3I7tP7MYPZDpf4Bh2OmzKz90Tf5vLHuKWhINJaItQSrEhni0NVB5NNnRQmAgNtuFpTdrxFFXe/bspyKAAwAoFIKBYBJEEMCiNt3QjZq06kTO/lPHjaDo4HEDh1N0RHTCKIqiATwPQcpRUMMHjhtFSpiHAQFMfSVBowggBFCMQwPz2IYfP3CQl8vk914SJkQRigDa+xbA+9kBvJ8CAAC8p4DjnXfiQzEQoyQETfKhoBPAQLcQwTSrUDHzYJSiFEdFUg6Dyp4Ai7X+T3XDBLOSfgxsS83UY06q3eswDUChAQPwL+jQsXVHrpGfX/zX/s+AwHtqAyAAuo/5AsiPgyAEMIAwBlAaNXrM+GlSHSYPHjJBBBk6ITpCXBQ+MsiLAEpqkAIIAlJZdQMMFErqAyAAKNg8IimviUTSDgjO/LRjEEMZwWjGMYFfPNCA0/vGO2uHbbbabJONwgjYVBDPIxUQQgDkBLICcZAy1LowABaC8jwkPYBCANGW1o7P0j4nu07XOi0trNO0MzVleuoUQmJ1FQe7hwoZnSyRYQtbbCzpMlCiC4R7KoVxu2lf0xd7t6enLo/HmROLWY6ElieTMjeRsKzAdFJkanBuMmkvjxfpdOiOtSxGwA6GHDDVmT5yWeKNzH3rXa+Z8yrW5VXgsliMOfG4HbSxvX67CJsaYb2n2DMUmPNcvFus84VYY0Km97S7TU/DczebxJxYvbl7zhD48Ey+JbgoJxOz6icTXyVn41Lv6rU517yruVjRdd2yeK3ebC1/6O7xVubaHnYgkt+NuLPrfViV9lyd/ZTWRNYktzcmwibMF2WOfzV78vurVk9575vZJ8a+azNwTuPa09u2rT11bsNBf02ZAX0e3XjkxPrcH9Nr/a4WfRsPzbKk8n1tFWhet2mDiyzro/uQ/bMXmC/0NZFRWff/sGaeOnFqnv5h9f4D4ozkqROUk+7f/6LnlGjNg4MGm9OKPXtOKpkDQwY59ZpY1uffnDyRjUMiWTsW/OHXpv5CzcbVcUc0XUfxX/s8mv5oV1CXqVO9VsaRzOL3TnS3Suw9vnsD1obvllX4934F0gf8q1vHmrW7dahbz5K1apVAfEXRgA/nd3lmH+DHkv6QDjAR5IAvB929r/QiX77vv0QATYP8NYbt7Jta+7eAEQDg40mL1wB8/m/NHIT/j+hnfhcwUAAI/LRJ0x2g/3s2LgCmh0xXmpkl2GTkJqyyM9HRZYL+gO4powz1speEgaNKAzAbAUI0w6IwBgIiShf56YGB6CCKFCjtRHBI0SqTRk6tOtkpqdUgQAPNxaHFI9XHogsdGMhgJjKCKOPoykCGMpghTKAjAxnJUBowmhEMoC1jmMBQ+hNlBPnpyFCmMZAKVG7yzZngHoKsA6MZSZRRGADw/0VOguYr4i2cXgkAAA==) format('woff2')}
+.f-b{font-family:'Bric',sans-serif}.f-b6{font-family:'Bric6',sans-serif}.f-i{font-family:'Inter',sans-serif}.f-i6{font-family:'Inter6',sans-serif}.f-m{font-family:'Mono',monospace}.f-m5{font-family:'Mono5',monospace}
+.in{animation:in 1.3s cubic-bezier(.2,.7,.1,1) backwards}
+@keyframes in{from{opacity:0;transform:translateY(18px)}}
+.inx{animation:inx 1.3s cubic-bezier(.2,.7,.1,1) backwards}
+@keyframes inx{from{opacity:0;transform:translateX(-22px)}}
+.fade{animation:fade 1.6s ease backwards}
+@keyframes fade{from{opacity:0}}
+.spin,.spin-r,.ctr,.pulse,.sway,.breathe,.pop{transform-box:fill-box;transform-origin:center}
+.spin{animation:spin var(--d,60s) linear infinite}
+.spin-r{animation:spin var(--d,60s) linear infinite reverse}
+@keyframes spin{to{transform:rotate(360deg)}}
+.tw{animation:tw var(--t,3.6s) ease-in-out infinite}
+@keyframes tw{0%,100%{opacity:.12}50%{opacity:.95}}
+.pulse{animation:pulse 2.4s ease-in-out infinite}
+@keyframes pulse{0%,100%{transform:scale(1);opacity:1}50%{transform:scale(1.55);opacity:.4}}
+.sway{animation:sway 10s cubic-bezier(.45,0,.55,1) infinite}
+@keyframes sway{0%,100%{transform:rotate(-14deg)}50%{transform:rotate(14deg)}}
+.breathe{animation:breathe 3.2s ease-in-out infinite}
+@keyframes breathe{0%,100%{transform:scale(1)}50%{transform:scale(1.12)}}
+.pop{animation:pop .9s cubic-bezier(.34,1.56,.64,1) backwards}
+@keyframes pop{from{transform:scale(0);opacity:0}}
+.drift{animation:drift 18s ease-in-out infinite alternate}
+@keyframes drift{from{transform:translate(-40px,10px) scale(1)}to{transform:translate(50px,-20px) scale(1.15)}}
+.float{animation:float 6s ease-in-out infinite}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
+.shine{animation:shine 7s cubic-bezier(.45,0,.55,1) infinite}
+@keyframes shine{0%{transform:translateX(0)}22%,100%{transform:translateX(var(--sw))}}@media (prefers-reduced-motion:reduce){*{animation:none!important}}</style><defs><linearGradient id="sh" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity="0.55"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient><clipPath id="pc"><rect width="134" height="44" rx="22"/></clipPath></defs><rect x=".5" y=".5" width="133" height="43" rx="21.5" fill="#61dbc3" stroke="#61dbc3"/><g clip-path="url(#pc)"><g transform="skewX(-20)"><rect class="shine" x="-70" y="-10" width="46" height="70" fill="url(#sh)" style="--sw:274px;animation-delay:0.2s"/></g></g><path d="M20 29 L31 16 M23 16 H31 V24" fill="none" stroke="#06101c" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/><text class="f-i6" x="44" y="27.6" font-size="16.5" fill="#06101c">Portfólio</text></svg>

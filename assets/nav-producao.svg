@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="171" height="44" viewBox="0 0 171 44" role="img" aria-labelledby="t d"><title id="t">Em produção</title><desc id="d">Em produção</desc><style>@font-face{font-family:'Inter6';src:url(data:font/woff2;base64,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) format('woff2')}
+.f-b{font-family:'Bric',sans-serif}.f-b6{font-family:'Bric6',sans-serif}.f-i{font-family:'Inter',sans-serif}.f-i6{font-family:'Inter6',sans-serif}.f-m{font-family:'Mono',monospace}.f-m5{font-family:'Mono5',monospace}
+.in{animation:in 1.3s cubic-bezier(.2,.7,.1,1) backwards}
+@keyframes in{from{opacity:0;transform:translateY(18px)}}
+.inx{animation:inx 1.3s cubic-bezier(.2,.7,.1,1) backwards}
+@keyframes inx{from{opacity:0;transform:translateX(-22px)}}
+.fade{animation:fade 1.6s ease backwards}
+@keyframes fade{from{opacity:0}}
+.spin,.spin-r,.ctr,.pulse,.sway,.breathe,.pop{transform-box:fill-box;transform-origin:center}
+.spin{animation:spin var(--d,60s) linear infinite}
+.spin-r{animation:spin var(--d,60s) linear infinite reverse}
+@keyframes spin{to{transform:rotate(360deg)}}
+.tw{animation:tw var(--t,3.6s) ease-in-out infinite}
+@keyframes tw{0%,100%{opacity:.12}50%{opacity:.95}}
+.pulse{animation:pulse 2.4s ease-in-out infinite}
+@keyframes pulse{0%,100%{transform:scale(1);opacity:1}50%{transform:scale(1.55);opacity:.4}}
+.sway{animation:sway 10s cubic-bezier(.45,0,.55,1) infinite}
+@keyframes sway{0%,100%{transform:rotate(-14deg)}50%{transform:rotate(14deg)}}
+.breathe{animation:breathe 3.2s ease-in-out infinite}
+@keyframes breathe{0%,100%{transform:scale(1)}50%{transform:scale(1.12)}}
+.pop{animation:pop .9s cubic-bezier(.34,1.56,.64,1) backwards}
+@keyframes pop{from{transform:scale(0);opacity:0}}
+.drift{animation:drift 18s ease-in-out infinite alternate}
+@keyframes drift{from{transform:translate(-40px,10px) scale(1)}to{transform:translate(50px,-20px) scale(1.15)}}
+.float{animation:float 6s ease-in-out infinite}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
+.shine{animation:shine 7s cubic-bezier(.45,0,.55,1) infinite}
+@keyframes shine{0%{transform:translateX(0)}22%,100%{transform:translateX(var(--sw))}}@media (prefers-reduced-motion:reduce){*{animation:none!important}}</style><defs><linearGradient id="sh" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity="0.16"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient><clipPath id="pc"><rect width="171" height="44" rx="22"/></clipPath></defs><rect x=".5" y=".5" width="170" height="43" rx="21.5" fill="#0e192a" stroke="#2a3d5a"/><g clip-path="url(#pc)"><g transform="skewX(-20)"><rect class="shine" x="-70" y="-10" width="46" height="70" fill="url(#sh)" style="--sw:311px;animation-delay:0.8s"/></g></g><circle cx="25" cy="22" r="4" fill="#61dbc3"/><text class="f-i6" x="44" y="27.6" font-size="16.5" fill="#eef2f7">Em produção</text></svg>
