@@ -114,6 +114,7 @@ section{position:relative;z-index:2}
 .hero .say{font-family:var(--display);font-size:clamp(22px,2.4vw,34px);font-weight:500;line-height:1.25;letter-spacing:-.015em;margin:34px 0 0;max-width:27ch}
 .rot{display:inline-grid;vertical-align:bottom;overflow:hidden;height:1.25em;color:var(--teal)}
 .rot span{grid-area:1/1;white-space:nowrap}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);clip-path:inset(50%);white-space:nowrap}
 .hero .lead{margin-top:18px;max-width:46ch}
 .hero .ctas{display:flex;flex-wrap:wrap;gap:12px;margin-top:34px}
 .hero-astro{position:relative;aspect-ratio:1;width:100%;max-width:600px;justify-self:end}
@@ -536,7 +537,7 @@ footer button svg{width:16px;height:16px}
     <div>
       <div class="eyebrow h-in">Técnico em Desenvolvimento de Sistemas · IFSULDEMINAS</div>
       <h1 aria-label="Theo de Souza"><span class="ln split">Theo</span><span class="ln split">de Souza</span></h1>
-      <p class="say h-in">Desenvolvo sistemas <span class="rot" id="rot"><span>web</span></span><br>com programação assistida por IA.</p>
+      <p class="say h-in">Desenvolvo sistemas <span class="sr">web, mobile, desktop e PWA</span><span class="rot" id="rot" aria-hidden="true"><span>web</span></span><br>com programação assistida por IA.</p>
       <p class="lead h-in">Do prontuário eletrônico de uma clínica de psicologia a um RPG de matemática para o ENEM: construo ferramentas que as pessoas usam.</p>
       <div class="ctas h-in">
         <a class="btn solid magnetic" href="#projetos" data-cursor="ver">Explorar projetos
@@ -1126,13 +1127,18 @@ footer button svg{width:16px;height:16px}
   /* ---------------- palavras que giram ---------------- */
   const rot = $('#rot'), words = ['web', 'mobile', 'desktop', 'PWA'];
   if (animated) {
+    // Uma palavra fixa por posição; o ciclo roda no relógio do GSAP, que pausa junto com a aba.
+    rot.textContent = '';
+    const spans = words.map(w => { const s = document.createElement('span'); s.textContent = w; rot.appendChild(s); return s; });
+    G.set(spans.slice(1), { yPercent: 110 });
     let k = 0;
-    setInterval(() => {
-      const cur = rot.querySelector('span'); k = (k + 1) % words.length;
-      const nx = document.createElement('span'); nx.textContent = words[k]; rot.appendChild(nx);
-      G.fromTo(nx, { yPercent: 110 }, { yPercent: 0, duration: .7, ease: 'expo.out' });
-      G.to(cur, { yPercent: -110, duration: .7, ease: 'expo.out', onComplete: () => cur.remove() });
-    }, 2300);
+    const tick = () => {
+      const cur = spans[k]; k = (k + 1) % spans.length; const nx = spans[k];
+      G.to(cur, { yPercent: -110, duration: .7, ease: 'expo.out', overwrite: true });
+      G.fromTo(nx, { yPercent: 110 }, { yPercent: 0, duration: .7, ease: 'expo.out', overwrite: true });
+      G.delayedCall(2.3, tick);
+    };
+    G.delayedCall(2.3, tick);
   } else rot.textContent = 'web, mobile e desktop';
 
   /* ---------------- abertura ---------------- */
